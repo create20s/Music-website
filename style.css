@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+
+body{
+    background-color:rgb(26,26,31);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+   
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 42px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.container{
+  
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 30px auto;
+    width: 65%;
+    border-radius: 12px;
+    padding: 30px;
+  
+    background-image: url('bg1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: 70%;
+    
+    /* background-size: 50vh; */
+
+    
+   
+}
+
+.songlist h1{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.songItem{
+       
+height: 40px;
+display: flex;
+background-color: white;
+border-radius: 8px;
+color: black;
+margin: 20px 0px;
+padding: 0px 5px;
+justify-content: space-between;
+align-items: center;
+font-family: 'Fredoka', sans-serif;
+font-weight: 400;
+font-size: 0.9rem;
+}
+.songItem img{
+    width: 30px;
+    border-radius: 25px;
+}
+
+.bottom{
+    /* position: absolute; */
+    height: 90px;
+    background-color: black;
+    color: white;
+    /* bottom: 0; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+.icons{
+    margin-top: 15px;
+}
+#myprogressBar{
+width: 80vw;
+margin-top: 20px;
+cursor: pointer;
+}
+.icons{
+    cursor: pointer;
+}
+
+.timestemp{
+    margin: 0 23px;
+    
+}
+.songInfo{
+    position: absolute;
+    left: 0;
+    margin: 20px 0px 0px 150px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.backgroundGif{
+    position: absolute;
+    bottom: 20vh;
+    right: 27vw;
+}
+.backgroundGif img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.additional{
+    margin: 0px 5px;
+}
